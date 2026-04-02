@@ -1,0 +1,236 @@
+[
+{
+  "model": "food.category",
+  "pk": 1,
+  "fields": {
+    "name": "Pizza",
+    "description": "Delicious pizzas baked fresh for you",
+    "image": null
+  }
+},
+{
+  "model": "food.category",
+  "pk": 2,
+  "fields": {
+    "name": "Burgers",
+    "description": "Juicy burgers and fries",
+    "image": null
+  }
+},
+{
+  "model": "food.category",
+  "pk": 3,
+  "fields": {
+    "name": "South Indian",
+    "description": "Authentic South Indian delicacies",
+    "image": null
+  }
+},
+{
+  "model": "food.category",
+  "pk": 4,
+  "fields": {
+    "name": "Chinese",
+    "description": "Flavorful Chinese cuisine",
+    "image": null
+  }
+},
+{
+  "model": "food.category",
+  "pk": 5,
+  "fields": {
+    "name": "Desserts",
+    "description": "Sweet treats and desserts",
+    "image": null
+  }
+},
+{
+  "model": "food.category",
+  "pk": 6,
+  "fields": {
+    "name": "Beverages",
+    "description": "Refreshing drinks and beverages",
+    "image": null
+  }
+},
+{
+  "model": "food.fooditem",
+  "pk": 1,
+  "fields": {
+    "name": "Margherita Pizza",
+    "description": "Classic pizza with tomato sauce, mozzarella cheese, and fresh basil",
+    "price": "299.00",
+    "category": 1,
+    "image": null,
+    "is_available": true
+  }
+},
+{
+  "model": "food.fooditem",
+  "pk": 2,
+  "fields": {
+    "name": "Pepperoni Pizza",
+    "description": "Loaded with pepperoni and extra cheese",
+    "price": "399.00",
+    "category": 1,
+    "image": null,
+    "is_available": true
+  }
+},
+{
+  "model": "food.fooditem",
+  "pk": 3,
+  "fields": {
+    "name": "Farmhouse Pizza",
+    "description": "Onion, capsicum, tomato, and grilled mushroom",
+    "price": "349.00",
+    "category": 1,
+    "image": null,
+    "is_available": true
+  }
+},
+{
+  "model": "food.fooditem",
+  "pk": 4,
+  "fields": {
+    "name": "Chicken Burger",
+    "description": "Grilled chicken patty with lettuce and mayo",
+    "price": "199.00",
+    "category": 2,
+    "image": null,
+    "is_available": true
+  }
+},
+{
+  "model": "food.fooditem",
+  "pk": 5,
+  "fields": {
+    "name": "Veggie Burger",
+    "description": "Crispy vegetable patty with fresh vegetables",
+    "price": "149.00",
+    "category": 2,
+    "image": null,
+    "is_available": true
+  }
+},
+{
+  "model": "food.fooditem",
+  "pk": 6,
+  "fields": {
+    "name": "Masala Dosa",
+    "description": "Crispy rice crepe filled with spiced potato masala",
+    "price": "129.00",
+    "category": 3,
+    "image": null,
+    "is_available": true
+  }
+},
+{
+  "model": "food.fooditem",
+  "pk": 7,
+  "fields": {
+    "name": "Idli Sambar",
+    "description": "Steamed rice cakes served with lentil soup and chutney",
+    "price": "99.00",
+    "category": 3,
+    "image": null,
+    "is_available": true
+  }
+},
+{
+  "model": "food.fooditem",
+  "pk": 8,
+  "fields": {
+    "name": "Hakka Noodles",
+    "description": "Stir-fried noodles with vegetables in soy sauce",
+    "price": "179.00",
+    "category": 4,
+    "image": null,
+    "is_available": true
+  }
+},
+{
+  "model": "food.fooditem",
+  "pk": 9,
+  "fields": {
+    "name": "Manchurian",
+    "description": "Vegetable balls in spicy Chinese gravy",
+    "price": "189.00",
+    "category": 4,
+    "image": null,
+    "is_available": true
+  }
+},
+{
+  "model": "food.fooditem",
+  "pk": 10,
+  "fields": {
+    "name": "Chocolate Brownie",
+    "description": "Warm brownie with chocolate sauce and vanilla ice cream",
+    "price": "149.00",
+    "category": 5,
+    "image": null,
+    "is_available": true
+  }
+},
+{
+  "model": "food.fooditem",
+  "pk": 11,
+  "fields": {
+    "name": "Gulab Jamun",
+    "description": "Traditional Indian sweet dumplings in sugar syrup",
+    "price": "99.00",
+    "category": 5,
+    "image": null,
+    "is_available": true
+  }
+},
+{
+  "model": "food.fooditem",
+  "pk": 12,
+  "fields": {
+    "name": "Coca Cola",
+    "description": "Chilled soft drink",
+    "price": "49.00",
+    "category": 6,
+    "image": null,
+    "is_available": true
+  }
+},
+{
+  "model": "food.fooditem",
+  "pk": 13,
+  "fields": {
+    "name": "Fresh Lime Soda",
+    "description": "Refreshing lime soda with mint",
+    "price": "59.00",
+    "category": 6,
+    "image": null,
+    "is_available": true
+  }
+},
+{
+  "model": "food.fooditem",
+  "pk": 14,
+  "fields": {
+    "name": "Paneer Tikka Pizza",
+    "description": "Spiced paneer tikka on pizza with onions and capsicum",
+    "price": "379.00",
+    "category": 1,
+    "image": null,
+    "is_available": true
+  }
+},
+{
+  "model": "food.fooditem",
+  "pk": 15,
+  "fields": {
+    "name": "French Fries",
+    "description": "Crispy golden fries with seasoning",
+    "price": "99.00",
+    "category": 2,
+    "image": null,
+    "is_available": true
+  }
+}
+]
